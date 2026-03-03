@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+env/
+venv/
+.venv/
+
+# Build outputs
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+
+# Logs and databases
+*.log
+npm-debug.log*
+yarn-debug.log*
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Personal Secrets (IMPORTANT)
+.env
+.env.local
+.secret
