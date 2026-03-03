@@ -4,7 +4,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
     const name = req.query.name;
-  res.send(`Docker Compose CI/CD Working by ${name}🚀`);
+  res.send(`sumanta Compose CI/CD Working by ${name}🚀`);
 });
 
 app.listen(port, () => {
